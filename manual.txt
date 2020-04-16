@@ -1,0 +1,5 @@
+сборка образа
+docker build - < Dockerfile -t imagev1
+
+запуск образа
+docker run -d -v /desktop/nikitin_git8 -p 8080:8080 --name my_container imagev1
